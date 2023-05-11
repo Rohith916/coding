@@ -1,0 +1,28 @@
+//use of getline() example
+
+#include<iostream>
+using namespace std;
+class details{
+    private:
+    string x,y,z,k;
+    public:
+    void get()
+    {
+        getline(cin,x);
+        getline(cin,y);
+        getline(cin,z);
+        getline(cin,k);
+    }
+    
+    void set(){
+        cout<<"Street: "<<x<<endl;
+        cout<<"City: "<<y<<endl;
+        cout<<"Pincode: "<<z<<endl;
+        cout<<"Country: "<<k;
+    }
+};
+int main(){
+    details f;
+    f.get();
+    f.set();
+}

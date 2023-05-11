@@ -1,0 +1,19 @@
+
+body{
+    background-color: #F0B27A;
+}
+h1{
+    color:gray;
+    background-color: pink;
+}
+#first{
+    height: 80%;
+    width: 150px;
+    color:whitesmoke;
+    background-color:#DA58DD;
+}
+.second{
+height: 80%;
+width: 150px;
+color:whitesmoke;
+background-color:rgb(66, 153, 175)};

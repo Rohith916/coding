@@ -1,0 +1,20 @@
+// v 
+#include <iostream>
+using namespace std;
+class occurence{
+    public:
+    int count(string s,char c){
+        string str=s;
+        char chr=c;
+        int cou=0;
+        for(int i=0;i<str.length();i++){
+            if(str[i]==chr){cou++;}
+        }
+        return cou;
+    }
+}obj;
+int main(){
+    string s;char c;
+    cin>>s>>c;
+    cout<<obj.count(s,c);
+}

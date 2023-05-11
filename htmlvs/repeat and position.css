@@ -1,0 +1,25 @@
+
+h1{
+    color:grey;
+    border-style:solid;
+    border-color: brown;
+    padding-bottom:10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+body {
+    width: 2000px;
+    background-image: url("https://cdn.carbuzz.com/gallery-images/2023-tesla-roadster-2023-tesla-roadster-side-perspective-driving-carbuzz-1023536.jpg");
+    background-repeat: repeat-x repeat y;
+    background-position: centre centre;
+    background-attachment: scroll;
+    border-width: 12px;
+    border-style:solid;
+    border-color: cyan;
+    margin-top: 47%;
+     margin-bottom: 47%;
+     padding-top:10px;
+     padding-bottom:10px;
+     padding-left: 10px;
+
+}
